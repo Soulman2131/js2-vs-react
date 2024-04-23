@@ -1,4 +1,8 @@
-const tasks = ["Nettoyer le sol", "Ranger la vaisselle", "Vider la poubelle"];
+const tasks = [
+  "Nettoyer le sol 👨🏻",
+  "Ranger la vaisselle 👨🏻‍🦰",
+  "Vider la poubelle 👩🏻‍🦰",
+];
 
 const task1 = document.querySelector(".task-1");
 const task2 = document.querySelector(".task-2");
