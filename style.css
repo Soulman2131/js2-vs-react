@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #333;
+  line-height: 1.7;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 60rem;
+  background: #f7f7f7;
+  margin: 10rem auto;
+  padding: 2.5rem 10rem;
+  border-radius: 7px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header > div {
+  background-color: #e7e7e7;
+  font-size: 1.4rem;
+  height: 4rem;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .active {
+  background-color: rgb(236, 74, 236);
+  color: #fff;
+}
+
+.message {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 4rem 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer > button {
+  font-size: 1.4rem;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 10rem;
+  font-weight: bold;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 3rem;
+}
